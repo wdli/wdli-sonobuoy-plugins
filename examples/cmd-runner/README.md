@@ -9,8 +9,8 @@ All of the results files are added into a tar file and then the 'done' file is w
 ## Example
 
 ```
-$ docker build . -t user/easy-sonobuoy-cmds:v0.1
-$ docker push user/easy-sonobuoy-cmds:v0.1
+$ docker build . -t wdlidocker/easy-sonobuoy-cmds:v0.1
+$ docker push wdlidocker/easy-sonobuoy-cmds:v0.1
 
 $ sonobuoy gen plugin \
 --name=hello-world \
